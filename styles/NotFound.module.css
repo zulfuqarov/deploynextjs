@@ -1,0 +1,74 @@
+/* NotFound.module.css */
+.notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .blackBackground {
+    background-color: black;
+  }
+  
+  .whiteText {
+    color: white;
+  }
+  
+  .h1Style {
+    font-weight: bold;
+    font-size: 46px;
+    
+    margin: 0 0 0 0;
+    padding-right: 23px;
+    vertical-align: top;
+  }
+  
+  .hrStyle {
+    background: currentColor;
+    height: 3px;
+    width: 30px;
+    margin-top: 13px;
+    position: absolute;
+    left: 9px;
+    transition: 0.4s cubic-bezier(0, 0, 0, 1);
+  }
+  
+  .pStyle {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .h2Style {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .buttonStyle {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+  .buttonStyle:hover{
+    background: white;
+  }
+  
+  .yellowButton {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .redirectText {
+    margin-top: 10px;
+    color: aliceblue;
+  }
+  
